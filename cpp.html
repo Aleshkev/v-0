@@ -1,0 +1,60 @@
+<!doctype html> <!-- Made by Jonasz Aleszkiewicz, 2015 -->
+<html lang="pl">
+	<head>
+		<title>C++</title>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="Jonasz Aleszkiewicz, programowanie, informatyka, C++, C"/>
+		<meta name="description" content="Strona Jonasza Aleszkiewicza o jego programowaniu: C++"/>
+		<meta name="author" content="Jonasz Aleszkiewicz"/>
+		<link rel="stylesheet" type="text/css" href="./Style.css"/>
+	</head>
+	<body>
+		<center>
+			<div style="background-color:black;">
+				<table>
+					<tr>
+						<td><a class="headlink" href="./index.html"><div class="headlink"><p>Strona główna</p></div></a></td>
+						<td><a class="headlink" href="./imagine.html"><div class="headlink"><p>Logomocja</p></div></a></td>
+						<td><div class="headlink active"><p>C++</p></div></td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<h1>C++</h1>
+			</div>
+			<div>
+				<div class="content" align="left">
+					<p> C++ jest jednym z wielu języków programowania. 
+						Został stworzony w 1983 roku przez <a href="http://pl.wikipedia.org/wiki/Bjarne_Stroustrup">Bjarne'a Stroustrupa</a>. 
+						</p>
+					<img title="Ewolucja z Fortrana do C++" src="http://upload.wikimedia.org/wikipedia/commons/8/84/Algol%26Fortran_family-by-Borkowski.svg" alt="C++ family" style="width:630px; height:526px;">
+					<p>  </p>
+					<div class="code">
+						<code>
+							int fibonacci(long int index, long int start=0) <br/>
+							{ <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	int f1=start, f2; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	index--; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	f2=fibonacci(start+1); <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	for(int i=0, _f2;i&lt;index-1;i++) <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	{ <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		_f2=f2; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		f2=f1+f2; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		f1=_f2; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		cout&lt;&lt;f2&lt;&lt;"\n"; <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	} <br/>
+							&nbsp;&nbsp;&nbsp;&nbsp;	return f2; <br/>
+							}
+						</code>
+					</div>
+				</div>
+			</div>
+			<p>
+				<font style="color:gray; font-size:6pt">
+					Strona zrobiona w całości przez Jonasza Aleszkiewicza. 
+					Użyto grafiki z innych żródeł oraz jQuery.
+				</font>
+			</p>
+		</center>
+	</body>
+</html>

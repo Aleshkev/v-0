@@ -1,0 +1,80 @@
+a:link {
+    color: #7F7F7F;
+    text-decoration: underline;
+}
+a:visited {
+    color: #9F9F9F;
+    text-decoration: underline;
+}
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+html {
+    font-family: System, "Lucida Console", monospace !important;
+}
+
+h1 {
+    cursor: default;
+    font-size: 36pt;
+}
+h2 {
+    cursor: default;
+    font-size: 20pt;
+}
+font.description {
+	color:gray;
+	font-size:6pt;
+}
+p {
+    font-size: 12pt;
+}
+img {
+    size: 100%;
+    margin: 3px;
+}
+img.left {
+    float: left;
+}
+img.right {
+    float: right;
+}
+div {
+    padding: 5px;
+}
+code {
+    background-color: lightgray;
+}
+input.standardentry {
+    width: 250px;
+    height: 20px;
+}
+a.headlink {
+    text-decoration: none
+}
+div.headlink {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+    width: 160px;
+    text-align: center;
+}
+div.headlink:hover {
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+}
+div.content {
+    text-align: left;
+    background-color: white;
+    border: 2px black solid;
+    width: 960px;
+    padding: 10px;
+}
+div.code {
+    background-color: lightgray;
+}
